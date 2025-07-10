@@ -8,6 +8,9 @@
     --primary-color: #4E47FF;
 }
 
+body{
+    background-color: #ede8e8;;
+}
 /* Hero section all CSS  */
 
 .header-section{
@@ -113,4 +116,52 @@ main{
 .user-section .statistics p{
     font-size: 16px;
     color: gray;
+}
+
+
+/* Client section all CSS */
+
+.client-section{
+    margin: 50px 0;
+    padding: 20px 0;
+}
+.client-section h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.client-box{
+    display: flex;
+    gap: 20px;
+}
+.client{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.client-section .client-name{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.client-section .client-description{
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+    margin-bottom: 10px;
+}
+.client-section .profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile .profile-name{
+    color: gray;
+}
+.profile .profile-info{
+    color: rgb(181, 176, 176);
+    font-size: 14px;
 }
